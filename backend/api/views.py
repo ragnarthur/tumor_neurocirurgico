@@ -25,7 +25,7 @@ class PredictView(APIView):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self._model = None
+        self._model = None 
         self._classes = None
         self._image_size = None
         self._mean = None
