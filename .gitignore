@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+
+# Django
+*.sqlite3
+
+# Node / Vite
+node_modules/
+dist/
+
+# Env
+.env
+.env.*
+
+# Data / models
+_downloads/
+data/
+models/
+backend/models/
+
+# OS / tooling
+.DS_Store
+.ruff_cache/
