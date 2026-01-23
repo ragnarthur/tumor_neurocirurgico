@@ -28,3 +28,4 @@ backend/models/
 # OS / tooling
 .DS_Store
 .ruff_cache/
+.aider*
